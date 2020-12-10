@@ -1,0 +1,133 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+}
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .header {
+    width: 30%;
+    border-bottom: 8px solid #cc0000;
+    margin-top: 25px;
+}
+section .header h2{
+    margin-bottom: 0px;
+}
+/*  Navigation  */
+.navigation {
+    height: 200px;
+}
+.navigation div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.logo img {
+    height: 250px;
+    margin-left: 150px;
+}
+.navigation ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    margin: 25px 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-bottom: 4px solid #cc0000;
+    z-index: 99;
+}
+a  {
+    text-decoration: none;
+}
+.navigation li :hover {
+    font-size: large;
+    font-weight: bold;
+}
+/*  Showcase  */
+.showcase {
+    height: 550px;
+    background-color: #777;
+    z-index: -1;
+    margin-bottom: 100px;
+}
+.showcase .tagline {
+    width: 30%;
+}
+.tagline p {
+        font-size: 90px;
+        text-align: right;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+}
+.showcase img{
+    height: 700px;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+}
+/*  Services  */
+.services {
+    height: 900px;
+}
+.services-list {
+    width: 46%;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+}
+.services-list-icn img {
+    height: 70px;
+    margin: 20px 45% 0px 45%;
+}
+.services-list h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+.services-container :hover {
+    background-color: #aaa;
+}
+/*  Projects  */
+.projects {
+    margin-top: 350px;
+    height: 100px;
+}
+.projects p {
+    font-family: 'New Times Roman';
+    font-size: 14px;
+}
+/*  Contact  */
+.contact .contact-container{
+    padding: 20px;
+}
+.contact-info {
+    width: 70%;
+    margin-left: 100px;
+}
+.contact .contact-container .contact-info img {
+    height: 20px;
+}
+/*  Footer  */
+.footer {
+    background-color: #aaa;
+    height: 120px;
+}
+.nav-links{
+    width: 20%;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+}
+.footer .copy {
+    text-align: center;
+    margin-top: -30px;  
+}
