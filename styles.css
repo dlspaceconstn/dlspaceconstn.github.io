@@ -241,7 +241,6 @@ nav {
 .header__content .input__group > div {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .header__content input {
@@ -258,7 +257,7 @@ nav {
 }
 
 .header__content .input__group span {
-  font-size: 1.1rem;
+  font-size: .5rem;
   font-weight: 600;
   color: var(--primary-color);
 }
